@@ -1,4 +1,4 @@
-class ItemData (val originalValue: Any){
+class ItemData(val originalValue: Any?){
     fun getType(): String?{
         return when (originalValue){
             is String -> "cadena"
