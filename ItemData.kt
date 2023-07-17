@@ -29,7 +29,7 @@ class ItemData(val originalValue: Any?){
                     "Verdadero"
                 }
                 else{
-                    "falso"
+                    "Falso"
                 }
             }
             else -> {
